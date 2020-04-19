@@ -1,9 +1,5 @@
-import React, { ReactChild } from 'react';
+import React from 'react';
 
-interface Props {
-  children: ReactChild
-}
-
-const DefaultLayout: React.FC<Props> = ({ children }: Props) => <div>{children}</div>;
+const DefaultLayout: React.FC = ({ children }) => <div>{children}</div>;
 
 export default DefaultLayout;

@@ -30,6 +30,7 @@ module.exports = {
     'jsx-a11y',
   ],
   rules: {
+    'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
     'import/prefer-default-export': 'off',
     'react/jsx-props-no-spreading': 'off',
