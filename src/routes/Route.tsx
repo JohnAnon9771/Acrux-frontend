@@ -16,7 +16,7 @@ export default function RouteWrapper({
   isPrivate = false,
   ...rest
 }: Props) {
-  const signed = true;
+  const signed = false;
   if (!signed && isPrivate) {
     return <Redirect to="/" />;
   }
